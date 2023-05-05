@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+//1.a
+class movie{
+    constructor(title,studio,rating)
+    this.title = title;
+    this.studio = studio;
+    this.rating= rating
+}
+
+
+//b.
+class movie {
+    constructor(title, studio, rating){
+        this.title = title;
+        this.studio = studio;
+        this.rating = "PG";
+    }
+}
+
+
+//c.
+class movie {
+    constructor(title, studio, rating) {
+      this.title = title;
+      this.studio = studio;
+      this.rating = PG;
+    }
+ 
+    getrating() {
+      return "the rating is  " + this.rating;
+    }
+  }
+
+
+//d.
+  Let CasinoRoyale = new movie( "Casino Royal", "Eon Productions", "PG13");
+
+
+//3.
+
+let person = {
+    constructor(){
+  this.name: "Gokul",
+  this.age: 27,
+  this.course: "FSD",
+  this.Mail:"gokul@gmail.com"
+  this.place: "Erode",
+    }
+  function () {
+    let result = `I am ${this.name} and my age is ${this.age}`;
+    console.log(result);
+  },
+};
+person.function();
+    
+
+
+
+//4. class uber{
+        constructor(distance,rate){
+        this.distance = distance;
+        this.rate = rate;
+        }
+        cal() {
+            console.log(this.dis * this.prc);
+    }}
+    prices = new uber(10, 20);
+    
+    prices.cal();
+
+    
+    
+
+</body>
+</html>
